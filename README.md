@@ -2,4 +2,4 @@
 
 master branch is working on Stars Wars API[https://swapi.dev/api/films] so should work for everyone.
 
-main branch is custom project connected to costom database so dont even try.
+main branch is custom project connected to custom database so dont even try.
