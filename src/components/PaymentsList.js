@@ -14,14 +14,24 @@ const PaymentList = (props) => {
   ));
 
   return (
-    <table>
-      <thead>
-        <th>ID</th>
-        <th>Price</th>
-        <th>Quantity</th>
-      </thead>
-      <tbody>{listItems}</tbody>
-    </table>
+    <div>
+      <table className={classes.table}>
+        <thead>
+          <tr className={classes.payment}>
+            <th>
+              <h5>ID</h5>
+            </th>
+            <th>
+              <h5>Price_ID</h5>
+            </th>
+            <th>
+              <h5>Qty.</h5>
+            </th>
+          </tr>
+        </thead>
+        <tbody>{listItems}</tbody>
+      </table>
+    </div>
   );
 };
 

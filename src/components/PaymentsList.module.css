@@ -3,3 +3,36 @@
   margin: 0;
   padding: 0;
 }
+
+table {
+  /* border-spacing: 10px; */
+  width: 100%;
+  background-color: white;
+  /* margin: 1rem auto; */
+  text-align: center;
+  /* padding: 2rem; */
+
+  /* margin: -10px; */
+}
+
+.payment h5 {
+  font-size: 1.5rem;
+  color: #f7e702;
+  border-radius: 12px;
+  margin: 10px;
+}
+
+.payment {
+  margin: 2rem;
+  padding: 2rem;
+  background-color: #230052;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  border-radius: 12px;
+  text-align: center;
+  color: white;
+}
+
+th {
+  border-radius: 12px;
+  height: 2rem;
+}

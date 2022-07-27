@@ -1,35 +1,25 @@
 .payment {
-  margin: 1rem;
-  padding: 1rem;
+  /* margin: 1rem; */
+  /* padding: 1rem; */
   background-color: #230052;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
   border-radius: 12px;
   text-align: center;
   color: white;
+  width: 100%;
 }
 
-.payment h2 {
-  font-size: 2rem;
-  color: #f7e702;
-}
-
-.payment h3 {
-  color: #eccf77;
-  margin: 0;
+.payment h5 {
   font-size: 1rem;
+  color: #f7e702;
+  margin: 10px;
 }
 
-.grid-container {
-  display: inline-grid;
-  grid-template-columns: auto auto auto;
-  background-color: #2196f3;
-  padding: 10px;
+table {
+  /* border-spacing: 10px; */
+  width: 100%;
 }
 
-.grid_item {
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
-  font-size: 30px;
-  text-align: center;
+td {
+  border-radius: 12px;
 }
