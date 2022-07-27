@@ -19,10 +19,11 @@ const PaymentList = (props) => {
         <thead>
           <tr className={classes.payment}>
             <th>
-              <h5>ID</h5>
+              <h5>payment_ID</h5>
             </th>
             <th>
               <h5>Price_ID</h5>
+              {/* directly linked to product_ID */}
             </th>
             <th>
               <h5>Qty.</h5>
